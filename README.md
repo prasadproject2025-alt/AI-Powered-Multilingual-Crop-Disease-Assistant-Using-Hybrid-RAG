@@ -154,15 +154,15 @@ tomato,early blight,concentric dark rings target spots on older leaves yellow ha
 
 ## 👨‍💻 Author
 
-**Akash K**
+**S Durga Prasad**
 
 M.Tech Software Engineering
 
 Developed in partial fulfillment of the course requirements for Artificial Intelligence – SWE4010
 
-GitHub: https://github.com/Akash2027
+GitHub: https://github.com/prasadproject2025-alt
 
-LinkedIn: www.linkedin.com/in/akash-k-bb9a20274
+LinkedIn: https://www.linkedin.com/in/durga-prasad-sundarraj/
 
 ---
 
