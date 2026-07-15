@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌾 AI-Powered Multilingual Crop Disease Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="/static/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>🌾 AI-Powered Multilingual Crop Disease Assistant</h1>
+        <p>Diagnose crop diseases and get solutions in your preferred language.</p>
+    </header>
+
+    <main>
+        <section class="chat-container">
+            <div id="chat-box" class="chat-box">
+                <div class="bot-msg">👋 Hello! I’m your Crop Doctor. How can I help you today?</div>
+            </div>
+
+            <div class="controls">
+                <select id="language-select">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="ta">Tamil</option>
+                    <option value="te">Telugu</option>
+                    <option value="kn">Kannada</option>
+                </select>
+
+                <textarea id="user-input" placeholder="Type your crop issue here..."></textarea>
+                <div class="buttons">
+                    <button id="send-btn">📤 Send</button>
+                    <button id="voice-btn">🎙️ Speak</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="kb-panel">
+            <h3>Knowledge Insight</h3>
+            <p><strong>Crop:</strong> <span id="crop-name">–</span></p>
+            <p><strong>Disease:</strong> <span id="disease-name">–</span></p>
+            <p><strong>Symptoms:</strong></p>
+            <ul id="symptom-list"><li>–</li></ul>
+            <p><strong>Solution:</strong></p>
+            <p id="solution-text">–</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Developed by <strong>Akash K</strong> • Powered by Gemini AI</p>
+    </footer>
+</body>
+</html>
